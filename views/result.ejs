@@ -1,0 +1,41 @@
+<html>
+
+<head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+
+p{
+	display: block; 
+}
+
+</style>
+</head>
+
+<body>
+<div class="col-md-4"></div>
+
+<div class="col-md-4">
+<h1> Submitted Survey Information </h1> 
+
+<div class= "panel">
+<p><strong>Name:</strong></p><p><%= name %></p>
+
+
+
+<p><strong>Location: </strong></p> <p><%= location %></p>
+
+<p><strong>Favorite Programming Language: </strong></p> <p><%= language %> </p> 
+
+<p><strong>Comment: </strong> </p><p><%= comment %></p>
+</div>
+
+<% console.log(name, location, language, comment) %>
+</div>
+
+<div class="col-md-4"></div>
+
+</body>
+
+</html>

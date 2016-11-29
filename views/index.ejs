@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<style>
+
+div{
+	display: block;
+}
+
+p{
+	display: block;
+}
+</style>
+</head>
+
+
+<body>
+<div class="col-md-3"></div>
+
+<div class="col-md-3">
+<h1> Express Survey Form  </h1>
+
+
+
+<div>
+<form action ='/result' method = 'post'>
+
+<div class="form-group">
+<p>Name:</p> <input type = 'text' name = 'name'>
+</div>
+
+<div class="form-group">
+<p>Location: </p><input type = 'text' name ='location'>
+</div>
+
+
+<div class="form-group">
+<p>Favorite Programming Language:</p> <input type='text' name ='language'>
+</div>
+
+
+
+<div class="form-group">
+<p>
+Comment: </p>
+
+<textarea class="form-control" rows = "3" name ='comment'></textarea>
+</div>
+<input type = 'submit' value = "submit">
+
+</form>
+</div>
+</div>
+
+<div class="col-md-3"></div>
+
+</body>
+
+
+
+</html>
